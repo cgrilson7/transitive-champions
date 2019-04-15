@@ -32,11 +32,19 @@ I took advantage of some handy functions in R's igraph to look at some of the pa
 - The champion with the highest degree of separation (8) - that is, the one at the end of the longest path to Virginia - was a Division II team, Fayettville St. Go Broncos!
       That path:
       Virginia lost to
+      
       Duke who lost to
-      Syracuse who lost to 
+      
+      Syracuse who lost to
+      
       Old Dominion who lost to
+      
       Southern Miss who lost to 
+      
       Longwood who lost to
+      
       SC Upstate who lost to
+      
       UNC Asheville who lost to
+      
       Fayetteville St
