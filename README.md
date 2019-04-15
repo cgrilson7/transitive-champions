@@ -31,6 +31,7 @@ I took advantage of some handy functions in R's igraph to look at some of the pa
 - ALL men's D1 teams were transitive champions in 2018-19!
 - The champion with the highest degree of separation (8) - that is, the one at the end of the longest path to Virginia - was a Division II team, Fayettville St. Go Broncos!
       That path:
+      
       Virginia lost to
       
       Duke who lost to
