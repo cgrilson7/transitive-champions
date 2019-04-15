@@ -4,17 +4,19 @@ My solution to Oliver Roeder's "transitive champions" riddle. (NCAA Division 1 B
 I wrote a program that, given a text file of results and a team name, builds a (quite rudimentary) graph where the edges are that team's losses to their opponents, and those opponents' losses to their opponents, etc.
 Then, using a recursive depth-first search, the program counts the total number of teams connected in this way. It also writes to .csv ("adjacency_list.csv") the pared-down lines from the input files.
 
-#Data from MasseyRatings.com:
+# Data from MasseyRatings.com:
 Women's: https://www.masseyratings.com/scores.php?s=305973&sub=305973&all=1
 Men's: https://www.masseyratings.com/scores.php?s=cb2019&sub=ncaa-d1&all=1&sch=1
 
 # Example use:
 C:\Users\cgrilson7\transitiveChamps>countChamps mens_results.txt Virginia
+
 Number of teams who played a D1 opponent in the 2018-19 season: 650
 Number of transitive champions: 359
 Leaving 291 teams who are not transitive champions.
 
 C:\Users\cgrilson7\transitiveChamps>countChamps womens_results.txt Baylor
+
 Number of teams who played a D1 opponent in the 2018-19 season: 2020
 Number of transitive champions: 1776
 Leaving 244 teams who are not transitive champions.
