@@ -1,4 +1,4 @@
-# transitive-champions
+# Transitive Champions
 My solution to Oliver Roeder's "transitive champions" riddle. (NCAA Division 1 Basketball 2018-19)
 
 I wrote a program that, given a text file of results and a team name, builds a (quite rudimentary) graph where the edges are that team's losses to their opponents, and those opponents' losses to their opponents, etc.
