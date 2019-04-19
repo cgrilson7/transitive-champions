@@ -27,7 +27,11 @@ Leaving 244 teams who were not transitive champions.
 
 # Results:
 
-I took advantage of some handy functions in R's igraph to look at some of the paths running through the graph.
+The above uses demonstrate the extent of the program's capabilities.
+
+Everything below was done in R ('analysis.R', using the 'adjacency_list.csv' created by running the program).
+
+I took advantage of some handy functions in R's igraph to look at some of the paths running through the graph. 
 - ALL men's D1 teams were transitive champions in 2018-19!
 - The champion with the highest degree of separation (8) - that is, the one at the end of the longest path to Virginia - was a Division II team, Fayettville St. Go Broncos!
       That path:
